@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>کاسموس — اخبار و بینش‌ها</title>
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="blog">
+  <div class="stars"></div>
+  <div id="site-header"></div>
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>اخبار و بینش‌ها</h1>
+        <div id="featured"></div>
+        <div style="display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap;margin-top:36px">
+          <div>
+            <span class="eyebrow">نوشته‌های وبلاگ</span>
+            <h2 style="margin-bottom:0">تازه‌ترین اخبار و بینش‌ها</h2>
+          </div>
+          <div class="filters" id="filters">
+            <button class="chip on" data-cat="همه">همه</button>
+            <button class="chip" data-cat="توسعه">توسعه</button>
+            <button class="chip" data-cat="طراحی">طراحی</button>
+            <button class="chip" data-cat="بازاریابی">بازاریابی</button>
+          </div>
+        </div>
+        <div class="blog-grid" id="grid" style="margin-top:16px"></div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap news">
+        <div><span class="eyebrow">خبرنامه</span><h3>ثبت‌نام کنید و به‌روز بمانید</h3><p class="muted">✌ قول می‌دهیم اسپم نکنیم!</p></div>
+        <form data-form>
+          <div class="field"><span>ایمیل شما</span><input type="email" placeholder="hello@email.com" required /></div>
+          <button class="btn btn-white" style="margin-top:10px" type="submit">ثبت‌نام</button>
+          <p class="ok">ممنون! پیام شما دریافت شد.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/site.js"></script>
+</body>
+</html>
